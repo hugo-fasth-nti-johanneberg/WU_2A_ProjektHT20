@@ -42,11 +42,37 @@ footer{
 
 .navflex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 #loggotyp{
     height: auto;
     width: 130px;
 
+}
+ /* här är menynsidan */
+#gridwrapper{
+    display: grid;
+    width: 100vw;
+    height: 200vh;
+    grid-template-columns: 0.6fr 4fr 0.6fr;
+    grid-template-rows: 1fr 4fr 4fr 1fr;
+    grid-template-areas: 
+    
+    "na na na"
+    "em ma e2"
+    "em me e2"
+    "fo fo fo"
+    ;
+ 
+}
+#meny{
+    grid-area: me;
+    background: lightblue;
+    display:flex;
+    justify-content: space-around;
+}
+.bilbilder{
+    height: 100px;
+    width: auto;
 }
