@@ -17,8 +17,12 @@
     ;
 }
 nav{
+    position: relative;
+    z-index: 10;
     grid-area: na;
-    background-color: blue;
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 80 );
+    background-color: white;
+
 }
 #empty{
     grid-area: em;
@@ -35,6 +39,7 @@ footer{
 .main-innerGridwrapp{
     grid-area: ma;
     background-color: yellow;
+    border-radius: 10px 10px 10px 1px;
 }
 
 /* över här har jag main utseendet för första sidan */
@@ -44,6 +49,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 #loggotyp{
     height: auto;
