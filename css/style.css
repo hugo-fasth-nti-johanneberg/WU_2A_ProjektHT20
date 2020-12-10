@@ -14,7 +14,9 @@
     "na na na"
     "em ma e2"
     "fo fo fo"
+
     ;
+    margin: 0;
 }
 nav{
     position: relative;
@@ -22,7 +24,6 @@ nav{
     grid-area: na;
     box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 80 );
     background-color: white;
-
 }
 #empty{
     grid-area: em;
@@ -39,7 +40,17 @@ footer{
 .main-innerGridwrapp{
     grid-area: ma;
     background-color: yellow;
-    border-radius: 10px 10px 10px 1px;
+    border-radius: 50px 50px 50px 50px;
+    margin: 10px;
+    padding: 30px;
+    display: grid;
+    grid-template-areas: 
+    
+    "txt txt"
+    "im1 im2"
+    "im3 im4"
+    
+    ;
 }
 
 /* över här har jag main utseendet för första sidan */
@@ -72,13 +83,42 @@ footer{
     ;
  
 }
-#meny{
+#mat_meny{
     grid-area: me;
     background: lightblue;
     display:flex;
     justify-content: space-around;
+    border-radius: 50px 50px 50px 50px;
+    margin:10px;
 }
+/* bilder i menyn*/
 .bilbilder{
-    height: 100px;
+    height: 180px;
     width: auto;
+    margin: 10px;
+}
+#img1{
+grid-area: im1;
+}
+#img2{
+grid-area: im2;
+}
+#img3{
+grid-area: im3;
+}
+#img4{
+grid-area: im4;
+}
+/* Här under är det lite styling med text */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:black; 
+     text-decoration:none; 
+     cursor:pointer;  
 }
