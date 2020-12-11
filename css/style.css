@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 #gridwrapper{
@@ -17,6 +18,8 @@
 
     ;
     margin: 0;
+    background-image: url(../misc/bakgrund.jpg);
+    background-size: cover;
 }
 nav{
     position: relative;
@@ -27,19 +30,24 @@ nav{
 }
 #empty{
     grid-area: em;
-    background-color: red;
 }
 #empty2{
     grid-area: e2;
-    background-color: red;
+
+}
+.tom{
+    background: rgba(0, 0, 0, 0);
 }
 footer{
     grid-area: fo;
-    background-color: green;
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .main-innerGridwrapp{
     grid-area: ma;
-    background-color: yellow;
+    background-color: #7a0b1f;
     border-radius: 50px 50px 50px 50px;
     margin: 10px;
     padding: 30px;
@@ -62,11 +70,25 @@ footer{
     align-items: center;
 
 }
+.navboxen{
+    width: 50px;
+    height: 50px;
+    color: darkslategray;
+}
+
 #loggotyp{
     height: auto;
     width: 130px;
 
 }
+#hemknapp{
+    width: 60px;
+    height: auto;
+    margin: 20px;
+
+}
+
+
  /* här är menynsidan */
 #gridwrapper{
     display: grid;
@@ -96,6 +118,7 @@ footer{
     height: 180px;
     width: auto;
     margin: 10px;
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 80 );
 }
 #img1{
 grid-area: im1;
