@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dokumentation projekt HT</title>
-
+    <link rel="stylesheet" href="css/style.css">
     <style>
         table, td, th {
             border: 1px solid black
@@ -23,12 +23,17 @@
 
     <h2>1. Idébeskrivning</h2>
     <!-- Vad ska du göra? Vilken är din målgrupp? Om du utvecklar en tidigare sida; Vad ska du förändra/utveckla? -->
-
+    <p>denna resturan/hemsida ska vara en resturang för bilentusiaster. Här ska man få testa att sitta i bilar medans man äter. målgrupp är omkring 18-65 beroende om man gillar bilar eller ej</p>
     <h2>2. Planering</h2>
-
+    Jag ska ha tre sidor. en välkomst sida sedan en menysida där man kan se alla alternativ och tillsist ska jag ha en Om oss sida där man kan se villka som är anstälda
     <h3>2.1 Handskiss</h3>
     <!-- Här lägger du en bild på din handskiss av layouten. Viktigt att du beskriver vilka boxelement som ska användas. Visa även hur du tänker med ditt grid (Hur många kolumner?) -->
-
+    <p>här hade jag bestämt mig att jag ville att hemsidan skulle innehålla tomrum på sidanav och över/under huvudinnehållet
+        men också naven och hur den skulle vara strukturerad. jag valde med ögonmått hur stor sidan skulle vara då det är svårt att gissa sig fram och då jag visste att jag  skulle finslipa sidan ändå 
+    </p>
+    <img src="misc/omoss" alt="omossskissen"> <br>
+    <img src="misc/skissMeny" alt="menyskissen"> <br>
+    <img src="misc/skissloggor" alt="loggorskissar"> <br>
     <h3>2.2 Schema</h3>
     <!-- Vad ska du göra när? Inte för detaljerat. -->
 
@@ -84,30 +89,42 @@
     
     idag har jag skapat mitt GitHubkonto
     <h3>Lektioner vecka 47</h3>
-    Idag har jag skapat de tre olika sidorna. skissat ned hur de ska se ut och förberätt för innehåll och css.
+    <p>Idag har jag skapat de tre olika sidorna. skissat ned hur de ska se ut och förberätt för innehåll och css.
 
-    Länkat till css. Skapat skeletet för de tre hemsidorna. Här har jag också skapat det första storlekarna och layouten på mainsidan.
+        Länkat till css. Skapat skeletet för de tre hemsidorna. Här har jag också skapat det första storlekarna och layouten på mainsidan.
+    </p>
     <h3>Lektioner vecka 48</h3>
     <!-- Fyll på med dokumentation här. -->
-    Idag har jag skapat en logga i photoshop och namngett min resturang. "AtuoMat"
+    <p>Idag har jag skapat en logga i photoshop och namngett min resturang. "AtuoMat"
 
-    Jag har också fixat mycket med Css och använt enkla test färger för att se var alla block hamnar
-
+        Jag har också fixat mycket med Css och använt enkla test färger för att se var alla block hamnar
+    </p>
     <h3>Lektioner vecka 49</h3>
     <!-- Fyll på med dokumentation här. -->
-    Idag har jag arbetat med att få till en dropshadow på min nav tagg. I början var det svårt, för någon anledning fungerade det på andra blockelement men inte nav-taggen. Så jag sökte på problemet och fick fram att jag behövde lägga till två kodsnuttar till Css koden. Villket fixade problemet dirrekt.s
-    <h3>Lektioner vecka 50</h3>
+    <p>Idag har jag arbetat med att få till en dropshadow på min nav tagg. I början var det svårt, för någon anledning fungerade det på andra blockelement men inte nav-taggen. Så jag sökte på problemet och fick fram att jag behövde lägga till två kodsnuttar till Css koden. Villket fixade problemet dirrekt.s
+    </p>
+        <h3>Lektioner vecka 50</h3>
     <!-- Fyll på med dokumentation här. -->
-    Idag har jag arbetat med naven och hur den länkar. Samt fixat så att default styilingen inte gäller. Villket tog en söknin. samt stylat menysidan för det mesta.
+    <p>Idag har jag arbetat med naven och hur den länkar. Samt fixat så att default styilingen inte gäller. Villket tog en söknin. samt stylat menysidan för det mesta.</p>
+    <p> idag fixade jag problemet jag haft med att min första sidans text blir minnimerad. Problemet löstes genom att göra en separat grid innuti första sidan då den delades med menysidan(bil-bilderna) därför gavs den endast 30px. Nu har den hela innergridwrappern och funkar bra. ps bilden under lddas inte på dokumentationen så du får manuellt kolla i misc mappen(sorry för besväret)
+    </p>
+
+    <img src="misc/hem.png" alt="problembild">
+   <p> Bilder från internet är nu alla komprimerade</p>
 
     <h2>4. Testning</h2>
     <!-- Testa i Chrome + Firefox eller Safari (på både dator och mobil). Skiljer sig resultatet? Har du behövt anpassa ditt kod/innehåll efter de olika webbläsarna? Hur gick valideringen? Vad säger contrastchecker.com om text/bakgrundsfärg? -->
-
+    <img src="misc/test-chrome" alt="chrometestet">
+    <img src="misc/test-firefox" alt="firefoxtestet">
+    <img src="misc/test-microsoftedge" alt="M-Etestet">
+    <p>alla dessa funkade likadant. contrastchecker gav mig 1.88 på den röda main deelenn. 2.23 på naven. och 8.35 på matmenyn.</p>
     <h2>5. Utvärdering (skrivs i slutet av arbetet, innan inlämning)</h2>
   
     <!-- Ex: Vad gick bra/mindre bra? (i arbetet/din förmåga).
     Nyanserat: "hur hade det blivit om jag istället hade...?"
     Konkreta förbättringsförslag i produkt + process. -->
-
+    <p>det gick rätt bra att hitta lösningar på småproblem. men en gång behövde jag hjälp av leo.(textminskningsproblemet) efter lektionen kom jag på hur man skulle lösa det</p>
+    <p>Ifall om att jag ispekterat elementet tidigare hade jag kanske sett att mainpagen liknade menysidan och kunde därpå upptäcka att den var kopplad till innregridwrappern med bilbilderna på</p>
+    <p>förbättringsförslag hade varigt att använda mer profsiga färger i de olika blockelementen. Samt småsaker som hover atribut på länkbara delar. i framtiden komer jag tänka på att ha en bättre struktur i min css kod. då där märkte jag att det kan bli lite snörrigt. men det har hjälpt mycket att skriva komentarer så att man ser i vilka buntar saker är. Detta gör ju också att det blir mer läsligt för andra som vill göra ändringar eller överse koden. </p>
 </body>
 </html>
